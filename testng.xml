@@ -1,0 +1,14 @@
+<suite name="Suite" parallel="tests" thread-count="10" verbose="1">
+  <tests name="Test">
+	  <test name="1">
+		  	<parameters>
+		  		<parameter name="browser" value="firefox"/>
+		  		<parameter name="TestName" value=""/>
+		  		<parameter name="TestGroup" value="Test1"/>		
+		  	</parameters>
+		    <classes>
+		      <class name="com.TestNG.TestAutomation.TestEngine"/>
+		    </classes>
+	    </test>
+  </tests> <!-- Test -->
+</suite> <!-- Suite -->

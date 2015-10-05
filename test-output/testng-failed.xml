@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="TestGroup" value=""/>
+  <parameter name="TestID" value="1"/>
+  <test name="1(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="TestGroup" value=""/>
+    <parameter name="TestID" value="1"/>
+    <classes>
+      <class name="com.TestNG.TestAutomation.TestEngine">
+        <methods>
+          <include name="beforeSuit"/>
+          <include name="execution"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.TestNG.TestAutomation.TestEngine -->
+    </classes>
+  </test> <!-- 1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
